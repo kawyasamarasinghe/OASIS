@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/drawable/btn.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_appregister.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_hotelbookmain.xml" value="0.21" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_mybookings.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_search_location.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_settings.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_update.xml" value="0.18489583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

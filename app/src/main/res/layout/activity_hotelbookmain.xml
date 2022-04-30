@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotelbookmain">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave__3_"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/txt_registerheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/txt_bookheading"
+        android:textColor="#FDFCFC"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_nameinput"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/btn"
+        android:hint="@string/txt_hnameinput"
+        android:paddingLeft="15dp"
+        android:text="@string/txt_hnameinput"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_registerheading" />
+
+    <EditText
+        android:id="@+id/txt_emailinput"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn"
+        android:hint="@string/txt_checkdateinput"
+        android:paddingLeft="15dp"
+        android:text="@string/txt_checkdateinput"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nameinput" />
+
+    <EditText
+        android:id="@+id/txt_checkoutinput"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn"
+        android:hint="@string/txt_checkoutinput"
+        android:paddingLeft="15dp"
+        android:text="@string/txt_checkoutinput"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_emailinput" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_bookinghotel1"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1bed" />
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_cancelupdate"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toEndOf="@+id/btn_signup"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2beds" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_emailinput"
+        app:layout_constraintTop_toTopOf="@+id/txt_emailinput"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_checkoutinput"
+        app:layout_constraintTop_toTopOf="@+id/txt_checkoutinput"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+    <EditText
+        android:id="@+id/txt_pwdinput"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn"
+        android:hint="@string/txt_countinput"
+        android:paddingLeft="15dp"
+        android:text="@string/txt_countinput"
+
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_checkoutinput" />
+
+    <TextView
+        android:id="@+id/txt_setfilters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_setfilters"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
+
+    <RadioButton
+        android:id="@+id/btn_breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_breakfast"
+        android:textColor="#6A6464"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_setfilters" />
+
+    <RadioButton
+        android:id="@+id/btn_1bed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/btn_1bed"
+        android:textColor="#6A6464"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_breakfast" />
+
+    <RadioButton
+        android:id="@+id/btn_2beds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="@string/btn_2beds"
+        android:textColor="#6A6464"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_breakfast" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
