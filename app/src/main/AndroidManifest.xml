@@ -19,16 +19,16 @@
             android:name=".SearchLocation"
             android:exported="false" />
         <activity
-            android:name=".mybookings"
+            android:name=".appregister"
             android:exported="false" />
         <activity
-            android:name=".appregister"
+            android:name=".hotelbookmain"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".hotelbookmain"
+            android:name=".mybookings"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

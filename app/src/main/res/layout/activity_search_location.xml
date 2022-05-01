@@ -174,7 +174,7 @@
         android:id="@+id/btn_mybookings"
         android:layout_width="158dp"
         android:layout_height="49dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="44dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_mybookings"
         android:textSize="16sp"
@@ -183,55 +183,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view4" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mybookings"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_home_24" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mybookings"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_map_24" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mybookings"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mybookings"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_star_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

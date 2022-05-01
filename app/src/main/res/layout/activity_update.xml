@@ -84,7 +84,7 @@
         android:layout_width="144dp"
         android:layout_height="54dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_update"
         android:textAllCaps="false"
@@ -98,7 +98,7 @@
         android:id="@+id/btn_signin"
         android:layout_width="144dp"
         android:layout_height="54dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_cancelupdate"
@@ -179,6 +179,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
         android:text="@string/btn_1bed"
         android:textColor="#6A6464"
         android:textSize="18sp"
@@ -189,64 +190,13 @@
         android:id="@+id/btn_2beds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="80dp"
         android:text="@string/btn_2beds"
         android:textColor="#6A6464"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_breakfast" />
-
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_home_24" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_map_24" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signin"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="52dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signin"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_baseline_star_24" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

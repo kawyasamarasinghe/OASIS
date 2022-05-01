@@ -45,11 +45,11 @@
         android:id="@+id/view5"
         android:layout_width="380dp"
         android:layout_height="1dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="4dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_mybookings" />
 
@@ -96,8 +96,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/btn_edit1"
         android:backgroundTint="#5F658F"
+        android:text="@string/btn_edit1"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toStartOf="@+id/btn_delete1"
         app:layout_constraintHorizontal_bias="0.931"
@@ -109,10 +109,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:backgroundTint="#5F658F"
-        app:cornerRadius="10dp"
         android:layout_marginEnd="24dp"
+        android:backgroundTint="#5F658F"
         android:text="@string/btn_delete1"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_booking1"
         tools:ignore="DuplicateSpeakableTextCheck" />
@@ -151,10 +151,23 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="28dp"
         android:backgroundTint="#5F658F"
-        app:cornerRadius="10dp"
         android:text="@string/btn_delete2"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_booking2" />
+
+    <Button
+        android:id="@+id/btn_calc"
+        android:layout_width="218dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_calc"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
