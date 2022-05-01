@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
         <activity
+            android:name=".edit_bookings"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".home_booking"
+            android:exported="false" />
+        <activity
+            android:name=".my_bookings"
+            android:exported="false" />
+        <activity
+            android:name=".make_a_booking"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".map"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
