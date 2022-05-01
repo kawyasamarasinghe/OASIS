@@ -34,8 +34,8 @@
         android:id="@+id/t_e_res_name"
         android:layout_width="337dp"
         android:layout_height="24dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="48dp"
         android:text="@string/t_e_res_name"
         android:textColor="#090909"
         android:textSize="18sp"
@@ -47,7 +47,8 @@
         android:id="@+id/i_e_name"
         android:layout_width="344dp"
         android:layout_height="41dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/ic_baseline_input_field"
         android:paddingLeft="16dp"
         android:text="@string/i_input_name"
@@ -212,60 +213,14 @@
 
     <Button
         android:id="@+id/br_edit"
-        android:layout_width="173dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="116dp"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="124dp"
         android:backgroundTint="#5F658F"
         android:text="@string/br_edit"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/i_num_t" />
-
-    <TextView
-        android:id="@+id/menu2"
-        android:layout_width="406dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/br_edit" />
-
-    <ImageView
-        android:id="@+id/img5"
-        android:layout_width="45dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="24dp"
-        app:layout_constraintStart_toStartOf="@+id/menu2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
-        app:srcCompat="@drawable/ic_baseline_home_24" />
-
-    <ImageView
-        android:id="@+id/img6"
-        android:layout_width="46dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toEndOf="@+id/img5"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
-        app:srcCompat="@drawable/ic_baseline_map_24" />
-
-    <ImageView
-        android:id="@+id/img7"
-        android:layout_width="45dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintEnd_toStartOf="@+id/img8"
-        app:layout_constraintTop_toBottomOf="@+id/br_edit"
-        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
-
-    <ImageView
-        android:id="@+id/img8"
-        android:layout_width="55dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintEnd_toEndOf="@+id/menu2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
-        app:srcCompat="@drawable/ic_baseline_grade_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

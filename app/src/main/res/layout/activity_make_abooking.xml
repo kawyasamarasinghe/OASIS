@@ -34,7 +34,7 @@
         android:id="@+id/t_e_res_name"
         android:layout_width="348dp"
         android:layout_height="30dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="36dp"
         android:text="@string/t_c_res_name"
         android:textColor="#090909"
@@ -206,60 +206,14 @@
 
     <Button
         android:id="@+id/br_create"
-        android:layout_width="173dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="132dp"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="112dp"
         android:backgroundTint="#5F658F"
         android:text="@string/br_create"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/c_num_t" />
-
-    <TextView
-        android:id="@+id/menu2"
-        android:layout_width="406dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/br_create" />
-
-    <ImageView
-        android:id="@+id/i5"
-        android:layout_width="45dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="24dp"
-        app:layout_constraintStart_toStartOf="@+id/menu2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
-        app:srcCompat="@drawable/ic_baseline_home_24" />
-
-    <ImageView
-        android:id="@+id/i6"
-        android:layout_width="46dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toEndOf="@+id/i5"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
-        app:srcCompat="@drawable/ic_baseline_map_24" />
-
-    <ImageView
-        android:id="@+id/i7"
-        android:layout_width="47dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toEndOf="@+id/i6"
-        app:layout_constraintTop_toBottomOf="@+id/br_create"
-        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
-
-    <ImageView
-        android:id="@+id/i8"
-        android:layout_width="55dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="@+id/menu2"
-        app:layout_constraintTop_toTopOf="@+id/menu2"
-        app:srcCompat="@drawable/ic_baseline_grade_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
