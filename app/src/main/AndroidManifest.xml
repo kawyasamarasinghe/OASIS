@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
         <activity
+            android:name=".UpdatevehicleBookings"
+            android:exported="false" />
+        <activity
+            android:name=".MybookingsVehicles"
+            android:exported="false" />
+        <activity
+            android:name=".MyVehicles"
+            android:exported="false" />
+        <activity
+            android:name=".DistanceCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".Compass"
+            android:exported="false" />
+        <activity
+            android:name=".BookVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +39,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

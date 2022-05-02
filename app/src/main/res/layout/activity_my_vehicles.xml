@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ratingmybookingpg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyVehicles">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="411dp"
+        android:layout_height="236dp"
+        android:background="@drawable/travelway_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/vehicleview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="188dp"
+            android:text="@string/vehicleview"
+            android:textColor="#CDCDCD"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/txt_myvehicles"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txt_myvehicles"
+        android:textColor="@color/darkgrey"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+    <View
+        android:id="@+id/view2_k"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_myvehicles" />
+
+
+    <TextView
+        android:id="@+id/txt_car1"
+        android:layout_width="197dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/txt_car1"
+        android:textColor="@color/darkgrey"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2_k" />
+
+    <Button
+        android:id="@+id/btn_bookingvehicle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_bookingvehicle1"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_car1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toEndOf="@+id/txt_car1"
+        app:layout_constraintTop_toTopOf="@+id/txt_car1"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/txt_car2"
+        android:layout_width="197dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/txt_car2"
+        android:textColor="@color/darkgrey"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3_k" />
+
+    <Button
+        android:id="@+id/btn_bookingvehicle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_bookingvehicle1"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_car2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toEndOf="@+id/txt_car2"
+        app:layout_constraintTop_toTopOf="@+id/txt_car2"
+        app:layout_constraintVertical_bias="0.59"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <View
+        android:id="@+id/view3_k"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_car1" />
+
+    <TextView
+        android:id="@+id/txt_car3"
+        android:layout_width="197dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/txt_car3"
+        android:textColor="@color/darkgrey"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4_k" />
+
+    <Button
+        android:id="@+id/btn_bookingvehicle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_bookingvehicle1"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_car3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toEndOf="@+id/txt_car3"
+        app:layout_constraintTop_toTopOf="@+id/txt_car3"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <View
+        android:id="@+id/view5_k"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_car3" />
+
+    <View
+        android:id="@+id/view4_k"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_car2" />
+
+    <Button
+        android:id="@+id/mybookings_k"
+        android:layout_width="189dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#CCCCCC"
+        android:text="My Bookings"
+        android:textAllCaps="false"
+        android:textColor="#373737"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5_k" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
