@@ -32,7 +32,7 @@
         android:id="@+id/txt_nameinput"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="116dp"
         android:background="@drawable/btn"
         android:hint="@string/txt_hnameinput"
         android:paddingLeft="15dp"
@@ -84,7 +84,7 @@
         android:layout_width="144dp"
         android:layout_height="54dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="44dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_update"
         android:textAllCaps="false"
@@ -92,13 +92,13 @@
         android:textSize="20dp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_1bed" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
 
     <Button
         android:id="@+id/btn_signin"
         android:layout_width="144dp"
         android:layout_height="54dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_cancelupdate"
@@ -107,9 +107,9 @@
         android:textSize="20dp"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintHorizontal_bias="0.927"
         app:layout_constraintStart_toEndOf="@+id/btn_signup"
-        app:layout_constraintTop_toBottomOf="@+id/btn_2beds" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -148,55 +148,6 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_checkoutinput" />
-
-    <TextView
-        android:id="@+id/txt_setfilters"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/txt_setfilters"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
-
-    <RadioButton
-        android:id="@+id/btn_breakfast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/btn_breakfast"
-        android:textColor="#6A6464"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_setfilters" />
-
-    <RadioButton
-        android:id="@+id/btn_1bed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/btn_1bed"
-        android:textColor="#6A6464"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_breakfast" />
-
-    <RadioButton
-        android:id="@+id/btn_2beds"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="80dp"
-        android:text="@string/btn_2beds"
-        android:textColor="#6A6464"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_breakfast" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
