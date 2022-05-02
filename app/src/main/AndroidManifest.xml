@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
         <activity
-            android:name=".edit_bookings"
+            android:name=".map"
             android:exported="false" />
         <activity
             android:name=".login"
@@ -28,7 +28,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".map"
+            android:name=".edit_bookings"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

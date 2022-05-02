@@ -133,65 +133,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hr_tg2" />
 
-    <TextView
-        android:id="@+id/menu"
-        android:layout_width="381dp"
-        android:layout_height="76dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_bookings" />
-
-    <ImageView
-        android:id="@+id/i_home"
-        android:layout_width="43dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="@+id/menu"
-        app:layout_constraintTop_toTopOf="@+id/menu"
-        app:srcCompat="@drawable/ic_baseline_home_24" />
-
-    <ImageView
-        android:id="@+id/i_search"
-        android:layout_width="51dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toEndOf="@+id/i_home"
-        app:layout_constraintTop_toTopOf="@+id/menu"
-        app:srcCompat="@drawable/ic_baseline_map_24" />
-
-    <ImageView
-        android:id="@+id/i_rate"
-        android:layout_width="50dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="@+id/menu"
-        app:layout_constraintTop_toTopOf="@+id/menu"
-        app:srcCompat="@drawable/ic_baseline_grade_24" />
-
-    <ImageView
-        android:id="@+id/i_qa"
-        android:layout_width="38dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toStartOf="@+id/i_rate"
-        app:layout_constraintHorizontal_bias="0.486"
-        app:layout_constraintStart_toEndOf="@+id/i_search"
-        app:layout_constraintTop_toTopOf="@+id/menu"
-        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
-
     <Button
         android:id="@+id/btn_bookings"
-        android:layout_width="166dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="144dp"
+        android:layout_width="179dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="128dp"
         android:backgroundTint="#5F658F"
-        app:cornerRadius="10dp"
         android:text="@string/btn_bookings"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_r3" />
 

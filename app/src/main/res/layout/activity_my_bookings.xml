@@ -179,56 +179,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_res_3" />
 
-    <TextView
-        android:id="@+id/menu"
-        android:layout_width="408dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="104dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_btn_d3" />
-
-    <ImageView
-        android:id="@+id/i_home"
-        android:layout_width="57dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/ic_baseline_home_24"
-        app:layout_constraintStart_toStartOf="@+id/menu"
-        app:layout_constraintTop_toTopOf="@+id/menu" />
-
-    <ImageView
-        android:id="@+id/i_map"
-        android:layout_width="55dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/ic_baseline_map_24"
-        app:layout_constraintStart_toEndOf="@+id/i_home"
-        app:layout_constraintTop_toTopOf="@+id/menu" />
-
-    <ImageView
-        android:id="@+id/i_qa"
-        android:layout_width="65dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/ic_baseline_help_outline_24"
-        app:layout_constraintStart_toEndOf="@+id/i_map"
-        app:layout_constraintTop_toTopOf="@+id/menu" />
-
-    <ImageView
-        android:id="@+id/i_rate"
-        android:layout_width="57dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="28dp"
-        android:src="@drawable/ic_baseline_grade_24"
-        app:layout_constraintEnd_toEndOf="@+id/menu"
-        app:layout_constraintTop_toTopOf="@+id/menu" />
-
     <View
         android:id="@+id/hr_tg4"
         android:layout_width="380dp"
