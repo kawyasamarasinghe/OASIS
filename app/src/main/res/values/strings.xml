@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TravelApp</string>
+
     <string name="btn_bookinghotel1">Book</string>
     <string name="txt_myhotels">My Hotels</string>
     <string name="txt_hotel1">Heritance Hotel</string>
@@ -44,4 +44,54 @@
     <string name="txt_about">About Us</string>
     <string name="txt_contact">Contact Us</string>
     <string name="btn_calc">Calculate Discount</string>
+
+    <string name="app_name">OASIS Travel Planner</string>
+    <string name="t_my_book">My Bookings</string>
+    <string name="t_res_1">King of the Mambo</string>
+    <string name="b_btn_e1">Edit</string>
+    <string name="b_btn_d1">Delete</string>
+    <string name="t_res_2">Barista Cafe Aroma</string>
+    <string name="b_btn_e2">Edit</string>
+    <string name="b_btn_d2">Delete</string>
+    <string name="t_res_3">Isle of Gelato</string>
+    <string name="b_btn_e3">Edit</string>
+    <string name="b_btn_d3">Delete</string>
+    <string name="t_c_res">Make a Booking</string>
+    <string name="t_c_res_name">Restaurant Name</string>
+    <string name="i_input_name">King of the Mambo</string>
+    <string name="c_res_date">Booking Date</string>
+    <string name="c_input_date">22/02/2022</string>
+    <string name="input_c_time">Booking Time</string>
+    <string name="i_c_time">5.00 PM</string>
+    <string name="c_ch_meal">What is your meal</string>
+    <string name="i_meal">Dinner</string>
+    <string name="type_meal">Meal Type</string>
+    <string name="i_e_meal">Sea-food</string>
+    <string name="t_n_table">Number of tables</string>
+    <string name="br_edit">Edit Booking</string>
+    <string name="edit_res">Edit Booking</string>
+    <string name="t_e_res_name">Restaurant Name</string>
+    <string name="e_res_date">Booling Date</string>
+    <string name="e_input_date">22/02/2022</string>
+    <string name="input_e_time">Booking Time</string>
+    <string name="e_ch_meal">What is your meal</string>
+    <string name="c_type_meal">Meal type</string>
+    <string name="c_n_table">Number of tables</string>
+    <string name="br_create">Create Booking</string>
+    <string name="t_header">Book Your Restaurant </string>
+    <string name="t_pr">My Restaurants</string>
+    <string name="tr_r1">King of the Mambo</string>
+    <string name="t_r2">Barista Cafe Aroma</string>
+    <string name="btn_bookings">My Bookings</string>
+    <string name="b1">Book</string>
+    <string name="b3">Book</string>
+    <string name="b4">Book</string>
+    <string name="t_sign">Sign In</string>
+    <string name="i_mail">Email</string>
+    <string name="i_pw">Password</string>
+    <string name="b_sign">Sign In</string>
+    <string name="i_loc">Your Current Location</string>
+
+
+
 </resources>

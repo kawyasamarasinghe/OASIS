@@ -3,14 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/drawable/btn.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_appregister.xml" value="0.22" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_hotelbookmain.xml" value="0.21" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_main.xml" value="0.209375" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_mybookings.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_search_location.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_settings.xml" value="0.17083333333333334" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_update.xml" value="0.22" />
+
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/drawable/ic_baseline_grade_24.xml" value="0.15138888888888888" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" value="0.15138888888888888" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.15138888888888888" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/drawable/ic_baseline_input_field.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.15138888888888888" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_book_restaurant.xml" value="0.13" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_edit_bookings.xml" value="0.15" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_home_booking.xml" value="0.1294398907103825" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_login.xml" value="0.12" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_make_abooking.xml" value="0.1294398907103825" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_map.xml" value="0.1294398907103825" />
+        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_my_bookings.xml" value="0.1294398907103825" />
+
       </map>
     </option>
   </component>
