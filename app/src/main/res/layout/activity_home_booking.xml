@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_booking">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="414dp"
+            android:layout_height="234dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img2" />
+
+        <TextView
+            android:id="@+id/t_header"
+            android:layout_width="219dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="52dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/t_header"
+            android:textColor="#090909"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/img_1"
+            app:layout_constraintTop_toTopOf="@+id/img_1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/t_pr"
+        android:layout_width="334dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/t_pr"
+        android:textColor="#070707"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <View
+        android:id="@+id/hr_tg"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="16dp"
+        android:background="#32434141"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/t_r1"
+        android:layout_width="276dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="104dp"
+        android:text="@string/tr_r1"
+        android:textColor="#090909"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_pr" />
+
+    <View
+        android:id="@+id/hr_tg1"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="16dp"
+        android:background="#83434141"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/t_r2"
+        android:layout_width="298dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/t_r2"
+        android:textColor="#101010"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_tg1" />
+
+    <View
+        android:id="@+id/hr_tg2"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="16dp"
+        android:background="#23434141"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/t_r3"
+        android:layout_width="318dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/t_res_3"
+        android:textColor="#0E0E0E"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_tg2" />
+
+    <Button
+        android:id="@+id/btn_bookings"
+        android:layout_width="179dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_bookings"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_r3" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="43dp"
+        android:backgroundTint="#5F658F"
+        app:cornerRadius="10dp"
+        android:text="@string/b1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_tg" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="43dp"
+        android:backgroundTint="#5F658F"
+        app:cornerRadius="10dp"
+        android:text="@string/b3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_tg1" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="43dp"
+        android:backgroundTint="#5F658F"
+        app:cornerRadius="10dp"
+        android:text="@string/b4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_tg2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
+      
+      <activity
+            android:name=".Start"
+            android:exported="true" >
+          <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".UpdatevehicleBookings"
             android:exported="false" />
@@ -28,18 +38,44 @@
             android:name=".BookVehicle"
             android:exported="false" />
         <activity
-            android:name=".Start"
+            android:name=".update"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".SearchLocation"
+            android:exported="false" />
+        <activity
+            android:name=".appregister"
+            android:exported="false" />
+        <activity
+            android:name=".hotelbookmain"
+            android:exported="false" />
+        <activity
+            android:name=".map"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".home_booking"
+            android:exported="false" />
+        <activity
+            android:name=".my_bookings"
+            android:exported="false" />
+        <activity
+            android:name=".make_a_booking"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            android:exported="false" />
+        <activity
+            android:name=".mybookings"
+            android:exported="false" />
+        <activity     
+            android:name=".edit_bookings"
+            android:exported="false"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
