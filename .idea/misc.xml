@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_currencyconvertor.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_homewave.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_temcal.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/ic_wave__3_.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/drawable/selector.xml" value="0.19583333333333333" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_bookvehicle.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_compass.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_distance_calculator.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_main.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_my_vehicles.xml" value="0.22" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_mybookings_vehicles.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_start.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/layout/activity_updatevehicle_bookings.xml" value="0.1814814814814815" />
+        <entry key="..\:/2nd yr 2nd sem/MAD/OASIS/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1814814814814815" />
 
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/drawable/btn.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/OASIS/OASIS/app/src/main/res/layout/activity_appregister.xml" value="0.22" />
@@ -21,7 +39,6 @@
         <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_edit_bookings.xml" value="0.15" />
         <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_home_booking.xml" value="0.1294398907103825" />
         <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_login.xml" value="0.12" />
-        <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_make_abooking.xml" value="0.1294398907103825" />
         <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_map.xml" value="0.1294398907103825" />
         <entry key="..\:/Users/Dilshi Samarakkody/Desktop/oasis-travel-app/OASIS/app/src/main/res/layout/activity_my_bookings.xml" value="0.1294398907103825" />

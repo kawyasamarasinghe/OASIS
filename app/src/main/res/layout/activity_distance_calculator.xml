@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DistanceCalculator">
+
+    <View
+        android:id="@+id/view1_distancecalcul"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave__3_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/distancecaltxt"
+        android:layout_width="279dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/distancecaltxt"
+        android:textColor="#FDFCFC"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view1_distancecalcul" />
+
+    <EditText
+        android:id="@+id/discal1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/btn"
+        android:hint="Source Location"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/distancecaltxt" />
+
+    <EditText
+        android:id="@+id/discal2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn"
+        android:hint="Destination Location"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discal1" />
+
+    <EditText
+        android:id="@+id/discal3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn"
+        android:hint="Distance"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discal2" />
+
+    <Button
+        android:id="@+id/distancecalbtn"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#5F658F"
+        android:text="CALCULATE"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discal3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
