@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054445438575",
+    "project_id": "oasis-travel-planner-app",
+    "storage_bucket": "oasis-travel-planner-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054445438575:android:09d7539c9e3ea7818fef9a",
+        "android_client_info": {
+          "package_name": "extended.ui.oasistravelplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054445438575-03djboad929icq018hcm14eitid1vpuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkrHNSYJmua39zryH7jW4xkYc70xa5MW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054445438575-03djboad929icq018hcm14eitid1vpuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

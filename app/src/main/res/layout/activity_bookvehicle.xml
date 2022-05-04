@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookVehicle">
+
+    <View
+        android:id="@+id/view1_k"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave__3_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bookvehicletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/bookvehicletxt"
+        android:textColor="#FDFCFC"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/vehiclecon1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/btn"
+        android:hint="Starting Location"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookvehicletxt" />
+
+    <EditText
+        android:id="@+id/vehiclecon2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn"
+        android:hint="Arrival Location"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclecon1" />
+
+    <EditText
+        android:id="@+id/vehiclecon3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn"
+        android:hint="Date"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclecon2" />
+
+    <EditText
+        android:id="@+id/vehiclecon4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn"
+        android:hint="No. of passengers"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclecon3" />
+
+    <Button
+        android:id="@+id/updatebooking_vehicle_k"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/bookvehiclebtn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclecon4" />
+
+    <Button
+        android:id="@+id/cancelvehiclebtn"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="#5F658F"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toEndOf="@+id/updatebooking_vehicle_k"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclecon4" />
+
+    <ImageView
+        android:id="@+id/calandervehicle"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vehiclecon3"
+        app:layout_constraintEnd_toEndOf="@+id/vehiclecon3"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/vehiclecon3"
+        app:srcCompat="@drawable/ic_baseline_date_range_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
