@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="contentDescription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave__3_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <EditText
+        android:id="@+id/getval"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:hint="@string/getval"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/showAns"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/showAns"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/c2f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c2f" />
+
+        <RadioButton
+            android:id="@+id/f2c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/f2c" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/ansBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="@string/ansBtn" />
+
+        <Button
+            android:id="@+id/againBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="@string/againBtn" />
+
+    </LinearLayout>
+
+</LinearLayout>
