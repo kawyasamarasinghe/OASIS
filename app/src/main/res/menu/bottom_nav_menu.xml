@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title=""
+        android:id="@+id/map"
+        android:icon="@drawable/ic_baseline_map_24"/>
+    <item android:title=""
+        android:id="@+id/currencycon"
+        android:icon="@drawable/ic_currencyconvertor"/>
+    <item android:title=""
+        android:id="@+id/tempcal"
+        android:icon="@drawable/ic_temcal"/>
+</menu>

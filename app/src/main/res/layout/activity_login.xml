@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/i_email"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <View
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave__3_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t_sign"
+        android:layout_width="263dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="144dp"
+        android:text="@string/t_sign"
+        android:textColor="#0B0A0A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/main_view" />
+
+    <EditText
+        android:id="@+id/i_mail"
+        android:layout_width="323dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#5F658F"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/i_mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_sign" />
+
+    <EditText
+        android:id="@+id/i_pw"
+        android:layout_width="321dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="46dp"
+        android:backgroundTint="#5F658F"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/i_pw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_view" />
+
+    <Button
+        android:id="@+id/b_sign"
+        android:layout_width="168dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/b_sign"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/i_pw" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

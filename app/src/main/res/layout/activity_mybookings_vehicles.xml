@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MybookingsVehicles">
+
+
+    <View
+        android:id="@+id/viewlayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave__3_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mybookvehicletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/mybookvehicletxt"
+        android:textColor="#FDFCFC"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updatebooking_vehicle_k"
+        android:layout_width="233dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/updatebooking_vehicle_k"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mybookvehicletxt" />
+
+
+    <View
+        android:id="@+id/view1_k_myb"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/updatebooking_vehicle_k" />
+
+    <TextView
+        android:id="@+id/minicar_mybokings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/minicar_mybokings"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1_k_myb" />
+
+    <Button
+        android:id="@+id/editvehiclebtn_mybookings"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/editvehiclebtn_mybookings"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minicar_mybokings" />
+
+    <Button
+        android:id="@+id/deletevehiclebtn_mybookings"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/deletevehiclebtn_mybookings"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editvehiclebtn_mybookings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editvehiclebtn_mybookings"
+        app:layout_constraintTop_toTopOf="@+id/editvehiclebtn_mybookings" />
+
+    <View
+        android:id="@+id/view2_k_myb"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editvehiclebtn_mybookings" />
+
+    <TextView
+        android:id="@+id/car_mybokings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Car"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2_k_myb" />
+
+
+    <Button
+        android:id="@+id/editvehiclebtn2_mybookings"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/editvehiclebtn2_mybookings"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_mybokings" />
+
+    <Button
+        android:id="@+id/deletevehiclebtn2_mybookings"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/deletevehiclebtn2_mybookings"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editvehiclebtn2_mybookings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editvehiclebtn2_mybookings"
+        app:layout_constraintTop_toTopOf="@+id/editvehiclebtn2_mybookings" />
+
+
+    <View
+        android:id="@+id/view3_k_myb"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#23514F4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/editvehiclebtn2_mybookings" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

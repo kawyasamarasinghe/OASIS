@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">OASIS Travel Planner</string>
 
+    <string name="app_name">OASIS TravelPlanner</string>
 
     <string name="textView7" translatable="false">Place</string>
     <string name="textView12" translatable="false">Place</string>
@@ -16,14 +16,11 @@
     <string name="button10" translatable="false">View</string>
     <string name="button1" translatable="false">Add New Memory</string>
     <string name="memories" translatable="false">Memories</string>
-
-
     <string name="textView5" translatable="false">Currency Convertor</string>
     <string name="textView4" translatable="false">Currency To Be Converted</string>
     <string name="textxField1">\@string/textField</string>
     <string name="textView6" translatable="false">To Currency</string>
     <string name="textView9" translatable="false">From Currency</string>
-
     <string name="textView2" translatable="false">Memory Title</string>
     <string name="textView8" translatable="false">Date</string>
     <string name="textView16" translatable="false">Place</string>
@@ -38,7 +35,6 @@
     <string name="editText8" translatable="false">Place</string>
     <string name="imageView1" translatable="false">\@drawable/img4</string>
     <string name="imageView3" translatable="false">\@drawable/icon4</string>
-
     <string name="textView21" translatable="false">Update Memory</string>
     <string name="textView22" translatable="false">Date</string>
     <string name="textView23" translatable="false">Update Memory Title</string>
@@ -49,14 +45,12 @@
     <string name="button23" translatable="false">Update</string>
     <string name="button24" translatable="false">Cancel</string>
     <string name="imageView6" translatable="false">\@drawable/icon6</string>
-
     <string name="textView26" translatable="false">My Memory</string>
     <string name="editTextDate2" translatable="false">22.04.2022</string>
     <string name="editTextTextPersonName" translatable="false">Diamond Beach Villa</string>
     <string name="textView3" translatable="false">On earth there is no heaven, but there are pieces of it.</string>
     <string name="editTextTextMultiLine" translatable="false">Location is good for money spent.Ample restaurants are there around. So that didn\'t want to have breakfast at the location. Sime good restaurants are there near by.Had a wonderful time</string>
     <string name="button3" translatable="false">Delete</string>
-
     <string name="getval" translatable="false">Enter Temperature</string>
     <string name="showAns" translatable="false">0.0</string>
     <string name="c2f" translatable="false">Celsius to Fahrenheit</string>
@@ -67,5 +61,155 @@
     <string name="imageView7" translatable="false">\@drawable/img5</string>
     <string name="imageView" translatable="false">\@drawable/img4</string>
     <string name="button25" translatable="false">Convert</string>
+
+    <string name="wave1">wave background</string>
+    <string name="logo">logo</string>
+    <string name="poweredbytxt">Powered by</string>
+    <string name="teamtxt">Dandelions</string>
+    <string name="buttonfake">welcome</string>
+    <string name="view1_k">view</string>
+    <string name="bookvehicletxt">Book Vehicle</string>
+    <string name="vehiclecon1">starting location con</string>
+    <string name="vehiclecon2">arrival location con</string>
+    <string name="vehiclecon3">date con</string>
+    <string name="vehiclecon4">no of passangers con</string>
+    <string name="bookvehiclebtn">Book</string>
+    <string name="cancelvehiclebtn">Cancel</string>
+    <string name="view_compass">view</string>
+    <string name="compass">Compass</string>
+    <string name="compasspic">compass picture</string>
+    <string name="vehicleview">Book Your Vehicle</string>
+    <string name="txt_myvehicles">My Vehicles</string>
+    <string name="txt_car1">Mini Car</string>
+    <string name="btn_bookingvehicle1">Book</string>
+    <string name="txt_car2">Flex</string>
+    <string name="txt_car3">Car</string>
+    <string name="mybookings_k">My Bookings</string>
+    <string name="distancecaltxt">Distance Calculator</string>
+    <string name="view1_distancecalcul">layout</string>
+    <string name="discal1">source location</string>
+    <string name="discal2">destination location</string>
+    <string name="discal3">distance</string>
+    <string name="distancecalbtn">disstance calculation btn</string>
+    <string name="viewlayout">layout wave</string>
+    <string name="mybookvehicletxt">My Bookings</string>
+    <string name="updatebooking_vehicle_k">Add New Bookings</string>
+    <string name="minicar_mybokings">Mini Car</string>
+    <string name="editvehiclebtn_mybookings">Edit</string>
+    <string name="deletevehiclebtn_mybookings">Delete</string>
+    <string name="car_mybokings">Car</string>
+    <string name="editvehiclebtn2_mybookings">Edit</string>
+    <string name="deletevehiclebtn2_mybookings">Delete</string>
+    <string name="view1_k_myb">line1</string>
+    <string name="view2_k_myb">line2</string>
+    <string name="view3_k_myb">line 3</string>
+    <string name="updatevehicletxt">Update Bookings</string>
+    <string name="titleviewhome">Welcome</string>
+    <string name="texthomediscover">Discover world with us</string>
+    <string name="hotelscategory">hotels category</string>
+    <string name="memoriescategory">mamories category</string>
+    <string name="restaurantscategory">restaurants category</string>
+    <string name="travelwaycategory">travel way category</string>
+    <string name="splashscreenimage">splash screen image</string>
+    <string name="loading">loading</string>
+    <string name="iconmenu">setting icon</string>
+    <string name="updatevehiclecon1">update vehicle container one</string>
+    <string name="updatevehiclecon2">update vehicle container two</string>
+    <string name="updatevehiclecon3">date container</string>
+    <string name="updatevehiclecon4">number of passangers container</string>
+    <string name="updatelbooking_vehicle_k2">update booking button</string>
+    <string name="cancelbooking_vehicle_k2">cancel booking button</string>
+
+    <string name="btn_bookinghotel1">Book</string>
+    <string name="txt_myhotels">My Hotels</string>
+    <string name="txt_hotel1">Heritance Hotel</string>
+    <string name="txt_hotel2">ME Colombo</string>
+    <string name="txt_hotel3">Jetwing Lake</string>
+    <string name="btn_bookinghotel2">Book</string>
+    <string name="btn_bookinghotel3">Book</string>
+    <string name="btn_mybookings">My Bookings</string>
+    <string name="txt_headerhotelview">Book Your Hotel</string>
+    <string name="txt_hnameinput">Hotel Name</string>
+    <string name="txt_checkdateinput">Check-in Date</string>
+    <string name="txt_checkoutinput">Check-out Date</string>
+    <string name="txt_countinput">Price for up to</string>
+    <string name="txt_setfilters">Set your Filters</string>
+    <string name="btn_breakfast">Breakfast included</string>
+    <string name="btn_1bed">1 bed</string>
+    <string name="btn_2beds">2 beds</string>
+    <string name="txt_bookheading">Book Hotel</string>
+    <string name="txt_updateheading">Update Booking</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_cancelupdate">Cancel</string>
+    <string name="txt_mybookings">My Bookings</string>
+    <string name="txt_booking1">Heritance Kandalama</string>
+    <string name="txt_booking2">ME Colombo</string>
+    <string name="txt_booking3">Jetwing Lake</string>
+    <string name="btn_addbookings">Add new Booking</string>
+    <string name="btn_edit1">Edit</string>
+    <string name="btn_delete1">Delete</string>
+    <string name="btn_edit2">edit</string>
+    <string name="btn_delete2">Delete</string>
+    <string name="txt_registerheading">Create Account</string>
+    <string name="txt_nameinput">Name</string>
+    <string name="txt_emailinput">Email</string>
+    <string name="txt_pwdinput">Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="txt_signin">Already have an account ?</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_mode">Mode</string>
+    <string name="txt_terms">Terms of use</string>
+    <string name="txt_privacy">Privacy Policy</string>
+    <string name="txt_about">About Us</string>
+    <string name="txt_contact">Contact Us</string>
+    <string name="btn_calc">Calculate Discount</string>
+
+    <string name="t_my_book">My Bookings</string>
+    <string name="t_res_1">King of the Mambo</string>
+    <string name="b_btn_e1">Edit</string>
+    <string name="b_btn_d1">Delete</string>
+    <string name="t_res_2">Barista Cafe Aroma</string>
+    <string name="b_btn_e2">Edit</string>
+    <string name="b_btn_d2">Delete</string>
+    <string name="t_res_3">Isle of Gelato</string>
+    <string name="b_btn_e3">Edit</string>
+    <string name="b_btn_d3">Delete</string>
+    <string name="t_c_res">Make a Booking</string>
+    <string name="t_c_res_name">Restaurant Name</string>
+    <string name="i_input_name">King of the Mambo</string>
+    <string name="c_res_date">Booking Date</string>
+    <string name="c_input_date">22/02/2022</string>
+    <string name="input_c_time">Booking Time</string>
+    <string name="i_c_time">5.00 PM</string>
+    <string name="c_ch_meal">What is your meal</string>
+    <string name="i_meal">Dinner</string>
+    <string name="type_meal">Meal Type</string>
+    <string name="i_e_meal">Sea-food</string>
+    <string name="t_n_table">Number of tables</string>
+    <string name="br_edit">Edit Booking</string>
+    <string name="edit_res">Edit Booking</string>
+    <string name="t_e_res_name">Restaurant Name</string>
+    <string name="e_res_date">Booling Date</string>
+    <string name="e_input_date">22/02/2022</string>
+    <string name="input_e_time">Booking Time</string>
+    <string name="e_ch_meal">What is your meal</string>
+    <string name="c_type_meal">Meal type</string>
+    <string name="c_n_table">Number of tables</string>
+    <string name="br_create">Create Booking</string>
+    <string name="t_header">Book Your Restaurant </string>
+    <string name="t_pr">My Restaurants</string>
+    <string name="tr_r1">King of the Mambo</string>
+    <string name="t_r2">Barista Cafe Aroma</string>
+    <string name="btn_bookings">My Bookings</string>
+    <string name="b1">Book</string>
+    <string name="b3">Book</string>
+    <string name="b4">Book</string>
+    <string name="t_sign">Sign In</string>
+    <string name="i_mail">Email</string>
+    <string name="i_pw">Password</string>
+    <string name="b_sign">Sign In</string>
+    <string name="i_loc">Your Current Location</string>
+
 
 </resources>
