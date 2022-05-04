@@ -130,8 +130,9 @@
         app:layout_constraintTop_toTopOf="@+id/view1"
         app:layout_constraintVertical_bias="0.178" />
 
+
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView"
         android:layout_width="214dp"
         android:layout_height="134dp"
         android:contentDescription="@string/imageView3"
@@ -236,6 +237,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+        app:layout_constraintVertical_bias="0.448"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
