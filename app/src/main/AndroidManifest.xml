@@ -9,6 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
+      
+      <activity
+            android:name=".Start"
+            android:exported="true" >
+          <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UpdatevehicleBookings"
+            android:exported="false" />
+        <activity
+            android:name=".MybookingsVehicles"
+            android:exported="false" />
+        <activity
+            android:name=".MyVehicles"
+            android:exported="false" />
+        <activity
+            android:name=".DistanceCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".Compass"
+            android:exported="false" />
+        <activity
+            android:name=".BookVehicle"
+            android:exported="false" />
         <activity
             android:name=".update"
             android:exported="false" />
@@ -47,13 +75,10 @@
             android:exported="false" />
         <activity     
             android:name=".edit_bookings"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
