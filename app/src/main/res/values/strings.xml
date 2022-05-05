@@ -1,5 +1,66 @@
 <resources>
+
     <string name="app_name">OASIS TravelPlanner</string>
+
+    <string name="textView7" translatable="false">Place</string>
+    <string name="textView12" translatable="false">Place</string>
+    <string name="textView13" translatable="false">Place</string>
+    <string name="textView11" translatable="false">Title</string>
+    <string name="textView10" translatable="false">Title</string>
+    <string name="textView14" translatable="false">Title</string>
+    <string name="button6" translatable="false">Edit</string>
+    <string name="button7" translatable="false">Edit</string>
+    <string name="button9" translatable="false">Edit</string>
+    <string name="button5" translatable="false">View</string>
+    <string name="button8" translatable="false">View</string>
+    <string name="button10" translatable="false">View</string>
+    <string name="button1" translatable="false">Add New Memory</string>
+    <string name="memories" translatable="false">Memories</string>
+    <string name="textView5" translatable="false">Currency Convertor</string>
+    <string name="textView4" translatable="false">Currency To Be Converted</string>
+    <string name="textxField1">\@string/textField</string>
+    <string name="textView6" translatable="false">To Currency</string>
+    <string name="textView9" translatable="false">From Currency</string>
+    <string name="textView2" translatable="false">Memory Title</string>
+    <string name="textView8" translatable="false">Date</string>
+    <string name="textView16" translatable="false">Place</string>
+    <string name="textView17" translatable="false">Description</string>
+    <string name="textView18" translatable="false">Add Memory</string>
+    <string name="editText7" translatable="false">Title</string>
+    <string name="textView19" translatable="false">Place</string>
+    <string name="textView20" translatable="false">Description</string>
+    <string name="button21" translatable="false">Add</string>
+    <string name="button22" translatable="false">Cancel</string>
+    <string name="editTextTextMultiLine2" translatable="false">Description</string>
+    <string name="editText8" translatable="false">Place</string>
+    <string name="imageView1" translatable="false">\@drawable/img4</string>
+    <string name="imageView3" translatable="false">\@drawable/icon4</string>
+    <string name="textView21" translatable="false">Update Memory</string>
+    <string name="textView22" translatable="false">Date</string>
+    <string name="textView23" translatable="false">Update Memory Title</string>
+    <string name="textInputEditText" translatable="false">Title</string>
+    <string name="textView24" translatable="false">Update Place</string>
+    <string name="textInputEditText2" translatable="false">Place</string>
+    <string name="textView25" translatable="false">Update Description</string>
+    <string name="button23" translatable="false">Update</string>
+    <string name="button24" translatable="false">Cancel</string>
+    <string name="imageView6" translatable="false">\@drawable/icon6</string>
+    <string name="textView26" translatable="false">My Memory</string>
+    <string name="editTextDate2" translatable="false">22.04.2022</string>
+    <string name="editTextTextPersonName" translatable="false">Diamond Beach Villa</string>
+    <string name="textView3" translatable="false">On earth there is no heaven, but there are pieces of it.</string>
+    <string name="editTextTextMultiLine" translatable="false">Location is good for money spent.Ample restaurants are there around. So that didn\'t want to have breakfast at the location. Sime good restaurants are there near by.Had a wonderful time</string>
+    <string name="button3" translatable="false">Delete</string>
+    <string name="getval" translatable="false">Enter Temperature</string>
+    <string name="showAns" translatable="false">0.0</string>
+    <string name="c2f" translatable="false">Celsius to Fahrenheit</string>
+    <string name="f2c" translatable="false">Fahrenheit to Celsius</string>
+    <string name="ansBtn" translatable="false">Show Temperature</string>
+    <string name="againBtn" translatable="false">Again</string>
+    <string name="imageView2" translatable="false">\@drawable/img2</string>
+    <string name="imageView7" translatable="false">\@drawable/img5</string>
+    <string name="imageView" translatable="false">\@drawable/img4</string>
+
     <string name="wave1">wave background</string>
     <string name="logo">logo</string>
     <string name="poweredbytxt">Powered by</string>
@@ -148,5 +209,4 @@
     <string name="i_pw">Password</string>
     <string name="b_sign">Sign In</string>
     <string name="i_loc">Your Current Location</string>
-
 </resources>
