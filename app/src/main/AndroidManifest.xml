@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="extended.ui.oasistravelplanner">
+    package="extended.ui.oasistravelplanner"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -9,76 +10,94 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
-      
-      <activity
+ 
+        <activity
             android:name=".Start"
             android:exported="true" >
-          <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".Currency_Convertor"
+            android:exported="true" />
+        <activity
+            android:name=".Temperature_Calculator"
+            android:exported="true" />
+        <activity
+            android:name=".Memories_View"
+            android:exported="true" />
+        <activity
+            android:name=".Memories_Update"
+            android:exported="true" />
+        <activity
+            android:name=".Memories_Create"
+            android:exported="true" />
+        <activity
+            android:name=".Memories"
+            android:exported="true" />
         <activity
             android:name=".UpdatevehicleBookings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MybookingsVehicles"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MyVehicles"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DistanceCalculator"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Compass"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".BookVehicle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".update"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".settings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SearchLocation"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".appregister"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".hotelbookmain"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".map"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".home_booking"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".my_bookings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".make_a_booking"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".mybookings"
-            android:exported="false" />
+            android:exported="true" />
         <activity     
             android:name=".edit_bookings"
-            android:exported="false"/>
+            android:exported="true"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>
