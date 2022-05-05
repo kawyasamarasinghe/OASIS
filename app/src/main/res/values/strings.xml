@@ -209,4 +209,5 @@
     <string name="i_pw">Password</string>
     <string name="b_sign">Sign In</string>
     <string name="i_loc">Your Current Location</string>
+    <string name="logout">Log OUT</string>
 </resources>
