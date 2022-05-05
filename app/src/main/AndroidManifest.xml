@@ -12,7 +12,7 @@
         android:theme="@style/Theme.OASISTravelPlanner">
  
         <activity
-            android:name=".Start"
+            android:name=".appregister"
             android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -65,7 +65,7 @@
             android:name=".SearchLocation"
             android:exported="true" />
         <activity
-            android:name=".appregister"
+            android:name=".Start"
             android:exported="true" />
         <activity
             android:name=".hotelbookmain"

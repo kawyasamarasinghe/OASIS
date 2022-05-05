@@ -18,13 +18,13 @@
         android:id="@+id/txt_registerheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:text="@string/txt_registerheading"
         android:textColor="#FDFCFC"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,7 +36,6 @@
         android:background="@drawable/btn"
         android:hint="@string/txt_nameinput"
         android:paddingLeft="15dp"
-        android:text="@string/txt_nameinput"
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
@@ -53,7 +52,6 @@
         android:background="@drawable/btn"
         android:hint="@string/txt_emailinput"
         android:paddingLeft="15dp"
-        android:text="@string/txt_emailinput"
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
@@ -66,7 +64,7 @@
         android:id="@+id/btn_signup"
         android:layout_width="144dp"
         android:layout_height="54dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_signup"
         android:textAllCaps="false"
@@ -74,7 +72,7 @@
         android:textSize="20dp"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
 
@@ -103,7 +101,6 @@
         android:hint="@string/txt_pwdinput"
         android:paddingLeft="15dp"
 
-        android:text="@string/txt_pwdinput"
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
