@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="36dp"
         android:text="@string/txt_mybookings"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -31,143 +31,53 @@
 
     <Button
         android:id="@+id/btn_addbookings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="195dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="192dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_addbookings"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/view5"
-        android:layout_width="380dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="4dp"
-        android:background="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_mybookings" />
-
-    <View
-        android:id="@+id/view6"
-        android:layout_width="380dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="4dp"
-        android:background="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_edit1" />
-
-    <View
-        android:id="@+id/view7"
-        android:layout_width="380dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="4dp"
-        android:background="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_edit2" />
-
-    <TextView
-        android:id="@+id/txt_booking1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txt_booking1"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
-
-    <Button
-        android:id="@+id/btn_edit1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="#5F658F"
-        android:text="@string/btn_edit1"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_delete1"
-        app:layout_constraintHorizontal_bias="0.931"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_booking1" />
-
-    <Button
-        android:id="@+id/btn_delete1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:backgroundTint="#5F658F"
-        android:text="@string/btn_delete1"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_booking1"
-        tools:ignore="DuplicateSpeakableTextCheck" />
-
-    <TextView
-        android:id="@+id/txt_booking2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/txt_booking2"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view6" />
-
-    <Button
-        android:id="@+id/btn_edit2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="28dp"
-        android:backgroundTint="#5F658F"
-        android:text="@string/btn_edit2"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_delete2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_booking2" />
-
-    <Button
-        android:id="@+id/btn_delete2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="28dp"
-        android:backgroundTint="#5F658F"
-        android:text="@string/btn_delete2"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_booking2" />
 
     <Button
         android:id="@+id/btn_calc"
         android:layout_width="218dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="44dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="52dp"
         android:backgroundTint="#5F658F"
         android:text="@string/btn_calc"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view7" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_hotelbookingsall" />
+
+    <Button
+        android:id="@+id/btn_hotelbookingsall"
+        android:layout_width="195dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/btn_hotelbookingsall"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addbookings" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="392dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calc"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/hotelll" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

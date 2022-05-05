@@ -29,14 +29,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt_nameinput"
+        android:id="@+id/txt_hnameinput"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="96dp"
         android:background="@drawable/btn"
         android:hint="@string/txt_hnameinput"
         android:paddingLeft="15dp"
-        android:text="@string/txt_hnameinput"
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
@@ -46,21 +45,20 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_registerheading" />
 
     <EditText
-        android:id="@+id/txt_emailinput"
+        android:id="@+id/txt_checkdateinput"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn"
         android:hint="@string/txt_checkdateinput"
         android:paddingLeft="15dp"
-        android:text="@string/txt_checkdateinput"
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_nameinput" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_hnameinput" />
 
     <EditText
         android:id="@+id/txt_checkoutinput"
@@ -70,17 +68,16 @@
         android:background="@drawable/btn"
         android:hint="@string/txt_checkoutinput"
         android:paddingLeft="15dp"
-        android:text="@string/txt_checkoutinput"
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_emailinput" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_checkdateinput" />
 
     <Button
-        android:id="@+id/btn_signup"
+        android:id="@+id/btn_bookinghotelr"
         android:layout_width="144dp"
         android:layout_height="54dp"
         android:layout_marginStart="36dp"
@@ -92,9 +89,10 @@
         android:textSize="20dp"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_countinput" />
 
     <Button
+        android:id="@+id/btn_cancelupdater"
         android:layout_width="144dp"
         android:layout_height="54dp"
         android:layout_marginTop="52dp"
@@ -107,8 +105,8 @@
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.963"
-        app:layout_constraintStart_toEndOf="@+id/btn_signup"
-        app:layout_constraintTop_toBottomOf="@+id/txt_pwdinput" />
+        app:layout_constraintStart_toEndOf="@+id/btn_bookinghotelr"
+        app:layout_constraintTop_toBottomOf="@+id/txt_countinput" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -116,8 +114,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="@+id/txt_emailinput"
-        app:layout_constraintTop_toTopOf="@+id/txt_emailinput"
+        app:layout_constraintEnd_toEndOf="@+id/txt_checkdateinput"
+        app:layout_constraintTop_toTopOf="@+id/txt_checkdateinput"
         app:srcCompat="@drawable/ic_baseline_date_range_24" />
 
     <ImageView
@@ -131,14 +129,13 @@
         app:srcCompat="@drawable/ic_baseline_date_range_24" />
 
     <EditText
-        android:id="@+id/txt_pwdinput"
+        android:id="@+id/txt_countinput"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn"
         android:hint="@string/txt_countinput"
         android:paddingLeft="15dp"
-        android:text="@string/txt_countinput"
 
         android:textColor="#857979"
         android:textColorHighlight="#8E8D8D"

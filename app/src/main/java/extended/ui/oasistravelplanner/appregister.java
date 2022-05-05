@@ -1,6 +1,5 @@
 package extended.ui.oasistravelplanner;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
@@ -33,11 +32,11 @@ public class appregister extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appregister);
 
-        txt_nameinput = findViewById(R.id.txt_nameinput);
-        txt_emailinput = findViewById(R.id.txt_emailinput);
-        txt_pwdinput = findViewById(R.id.txt_pwdinput);
+        txt_nameinput = findViewById(R.id.txt_hnameinput);
+        txt_emailinput = findViewById(R.id.txt_checkdateinput);
+        txt_pwdinput = findViewById(R.id.txt_countinput);
 
-        btnsignup = findViewById(R.id.btn_signup);
+        btnsignup = findViewById(R.id.btn_bookinghotelr);
         btnsignin = findViewById(R.id.btn_signin);
 
         mAuth = FirebaseAuth.getInstance();

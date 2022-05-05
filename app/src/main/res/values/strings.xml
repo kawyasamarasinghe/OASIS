@@ -140,7 +140,7 @@
     <string name="txt_updateheading">Update Booking</string>
     <string name="btn_update">Update</string>
     <string name="btn_cancelupdate">Cancel</string>
-    <string name="txt_mybookings">My Bookings</string>
+    <string name="txt_mybookings">Your Favouites</string>
     <string name="txt_booking1">Heritance Kandalama</string>
     <string name="txt_booking2">ME Colombo</string>
     <string name="txt_booking3">Jetwing Lake</string>
@@ -209,4 +209,6 @@
     <string name="i_pw">Password</string>
     <string name="b_sign">Sign In</string>
     <string name="i_loc">Your Current Location</string>
+    <string name="btn_hotelbookingsall">View Bookings</string>
+    <string name="txt_bookkk">My Bookings</string>
 </resources>
