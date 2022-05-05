@@ -216,5 +216,15 @@
         android:layout_marginTop="12dp"
         app:srcCompat="@drawable/ic_settings" />
 
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/logout" />
+
 
 </RelativeLayout>
