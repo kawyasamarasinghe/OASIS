@@ -14,86 +14,86 @@
         <activity
             android:name=".Start"
             android:exported="true" >
-          <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
         <activity
             android:name=".Currency_Convertor"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Temperature_Calculator"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Memories_View"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Memories_Update"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Memories_Create"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Memories"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".UpdatevehicleBookings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MybookingsVehicles"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MyVehicles"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DistanceCalculator"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Compass"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".BookVehicle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".update"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".settings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SearchLocation"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".appregister"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".hotelbookmain"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".map"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".home_booking"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".my_bookings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".make_a_booking"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".mybookings"
-            android:exported="false" />
+            android:exported="true" />
         <activity     
             android:name=".edit_bookings"
-            android:exported="false"/>
+            android:exported="true"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
