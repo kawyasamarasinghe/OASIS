@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="2"
+    android:layout_row="4"
+    android:padding="16dp"
+    tools:context=".tip_calculator">
+
+    <EditText
+        android:id="@+id/txt_amount"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:background="#C2F0F6"
+        android:hint="Enter the Amount"
+        android:inputType="numberDecimal"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/txt_percent"
+        android:text="15%"
+        android:textSize="16sp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"/>
+    <SeekBar
+        android:id="@+id/s_percent"
+        android:max="30"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:progress="15"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="fill_horizontal"/>
+    <TextView
+        android:layout_row="2"
+        android:layout_column="0"
+        android:textSize="16sp"
+        android:text="Tip"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/t_tip"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="0.00"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="#83C9E8"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_row="3"
+        android:layout_column="0"
+        android:textSize="16sp"
+        android:text="Total Amount"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/t_total"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:background="#83C9E8"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="0.00"
+        android:layout_margin="16dp"/>
+
+</GridLayout>

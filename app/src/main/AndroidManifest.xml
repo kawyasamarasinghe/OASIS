@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="extended.ui.oasistravelplanner"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="extended.ui.oasistravelplanner">
 
     <application
         android:allowBackup="true"
@@ -10,15 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OASISTravelPlanner">
- 
         <activity
             android:name=".appregister"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+            android:exported="true" />
+        <activity
+            android:name=".tip_calculator"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Currency_Convertor"
             android:exported="true" />
@@ -91,13 +94,13 @@
         <activity
             android:name=".mybookings"
             android:exported="true" />
-        <activity     
+        <activity
             android:name=".edit_bookings"
-            android:exported="true"/>
+            android:exported="true" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
     </application>
 
 </manifest>
