@@ -210,4 +210,13 @@
     <string name="b_sign">Sign In</string>
     <string name="i_loc">Your Current Location</string>
     <string name="logout">Log OUT</string>
+    <string name="txt_calchead">Discount Calculator</string>
+    <string name="et_dischotel">Enter Hotel Price</string>
+    <string name="rd_btn_fam">Family Discount</string>
+    <string name="rd_btn_holiday">Special Holiday Discount</string>
+    <string name="btn_disccalculate">Calculate Discount</string>
+    <string name="tv_discount">After Discount Price</string>
+    <string name="btn_click1">Click me</string>
+    <string name="btn_click2">Click me</string>
+    <string name="btn_click3">click me</string>
 </resources>
