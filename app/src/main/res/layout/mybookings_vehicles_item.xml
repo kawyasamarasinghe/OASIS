@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/vehicleNametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Name"
+            android:textColor="@color/darkgrey"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/startingLocationtxt"
+            android:text="Starting Location"
+            android:textSize="20sp"
+            android:layout_below="@+id/vehicleNametxt"
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrivalLocationtxt"
+            android:text="Arrival Location"
+            android:textSize="20sp"
+            android:layout_below="@+id/startingLocationtxt"
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datetxt"
+            android:text="Date"
+            android:textSize="20sp"
+            android:layout_below="@+id/arrivalLocationtxt"
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noOfPassengerstxt"
+            android:text="No.Of Passengers"
+            android:textSize="20sp"
+            android:layout_below="@+id/datetxt"
+            android:textColor="@color/darkgrey"/>
+
+        <LinearLayout
+
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editvehiclebtn_mybookings"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#5F658F"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/deletevehiclebtn_mybookings"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editvehiclebtn_mybookings"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#5F658F"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
