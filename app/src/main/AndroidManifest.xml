@@ -12,7 +12,7 @@
         android:theme="@style/Theme.OASISTravelPlanner">
 
         <activity
-            android:name=".Memories_Create"
+            android:name=".Currency_Convertor"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Currency_Convertor"
+            android:name=".Memories_Create"
             android:exported="false" />
         <activity
             android:name=".Temperature_Calculator"
