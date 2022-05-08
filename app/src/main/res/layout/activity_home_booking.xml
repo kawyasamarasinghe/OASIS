@@ -10,6 +10,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/t_pr"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +22,10 @@
             android:layout_height="234dp"
             android:layout_marginTop="4dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/img2" />
+            app:srcCompat="@drawable/imgr" />
 
         <TextView
             android:id="@+id/t_header"
@@ -39,12 +40,25 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/img_1"
             app:layout_constraintTop_toTopOf="@+id/img_1" />
+
+        <Button
+            android:id="@+id/bTip"
+            android:layout_width="224dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/bTip"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_header" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/t_pr"
-        android:layout_width="334dp"
-        android:layout_height="42dp"
+        android:layout_width="243dp"
+        android:layout_height="47dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="44dp"
         android:fontFamily="sans-serif"
@@ -60,21 +74,21 @@
         android:layout_width="380dp"
         android:layout_height="1dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginTop="336dp"
         android:layout_marginEnd="16dp"
         android:background="#32434141"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="DuplicateIds" />
 
     <TextView
         android:id="@+id/t_r1"
-        android:layout_width="276dp"
-        android:layout_height="29dp"
+        android:layout_width="279dp"
+        android:layout_height="37dp"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginEnd="100dp"
         android:text="@string/tr_r1"
         android:textColor="#090909"
         android:textSize="23sp"
@@ -86,9 +100,9 @@
         android:layout_width="380dp"
         android:layout_height="1dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="420dp"
         android:layout_marginEnd="16dp"
-        android:background="#83434141"
+        android:background="#74434141"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -123,10 +137,10 @@
 
     <TextView
         android:id="@+id/t_r3"
-        android:layout_width="318dp"
-        android:layout_height="26dp"
+        android:layout_width="305dp"
+        android:layout_height="34dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="72dp"
         android:text="@string/t_res_3"
         android:textColor="#0E0E0E"
         android:textSize="23sp"
@@ -134,51 +148,35 @@
         app:layout_constraintTop_toBottomOf="@+id/hr_tg2" />
 
     <Button
-        android:id="@+id/btn_bookings"
-        android:layout_width="179dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="128dp"
+        android:id="@+id/b1"
+        android:layout_width="238dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="57dp"
         android:backgroundTint="#5F658F"
-        android:text="@string/btn_bookings"
+        android:text="@string/b1"
+        android:textAllCaps="false"
+        android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_r3" />
 
     <Button
-        android:id="@+id/b1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="43dp"
+        android:id="@+id/btn_bookings"
+        android:layout_width="239dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="55dp"
         android:backgroundTint="#5F658F"
+        android:text="@string/btn_bookings"
+        android:textAllCaps="false"
+        android:textSize="20sp"
         app:cornerRadius="10dp"
-        android:text="@string/b1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hr_tg" />
-
-    <Button
-        android:id="@+id/b3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="43dp"
-        android:backgroundTint="#5F658F"
-        app:cornerRadius="10dp"
-        android:text="@string/b3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hr_tg1" />
-
-    <Button
-        android:id="@+id/b4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="43dp"
-        android:backgroundTint="#5F658F"
-        app:cornerRadius="10dp"
-        android:text="@string/b4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hr_tg2" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_r3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

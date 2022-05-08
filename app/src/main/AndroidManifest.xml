@@ -71,9 +71,6 @@
             android:name=".hotelbookmain"
             android:exported="false" />
         <activity
-            android:name=".map"
-            android:exported="false" />
-        <activity
             android:name=".login"
             android:exported="false" />
         <activity
@@ -91,9 +88,7 @@
         <activity
             android:name=".mybookings"
             android:exported="false" />
-        <activity
-            android:name=".edit_bookings"
-            android:exported="false"/>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

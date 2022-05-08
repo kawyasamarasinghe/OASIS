@@ -2,6 +2,7 @@ package extended.ui.oasistravelplanner;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-
+    private CardView restaurantCardview;
     private Button logout;
 
     @Override
@@ -30,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 Toast.makeText(MainActivity.this,"logged Out",Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this, login.class));
+            }
+        });
+
+        restaurantCardview = findViewById(R.id.restaurantscategory);
+
+        restaurantCardview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,home_booking.class);
+                startActivity(intent);
             }
         });
 
