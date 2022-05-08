@@ -7,7 +7,7 @@
     tools:context=".DistanceCalculator">
 
     <View
-        android:id="@+id/view1_distancecalcul"
+        android:id="@+id/viewlayout"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@drawable/ic_wave__3_"
@@ -17,77 +17,118 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/distancecaltxt"
-        android:layout_width="279dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="48dp"
-        android:text="@string/distancecaltxt"
-        android:textColor="#FDFCFC"
-        android:textSize="25dp"
-        android:textStyle="bold"
+        android:id="@+id/tv_calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/tv_calculator"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view1_distancecalcul" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/discal1"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="128dp"
-        android:background="@drawable/btn"
-        android:hint="Source Location"
-        android:paddingLeft="15dp"
-        android:textColorHighlight="#8E8D8D"
-        android:textColorHint="#8E8D8D"
+    <TextView
+        android:id="@+id/tv_temp_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/tv_temp_enter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_temp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/distancecaltxt" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_calculator" />
 
-    <EditText
-        android:id="@+id/discal2"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/btn"
-        android:hint="Destination Location"
-        android:paddingLeft="15dp"
-        android:textColorHighlight="#8E8D8D"
-        android:textColorHint="#8E8D8D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/discal1" />
-
-    <EditText
-        android:id="@+id/discal3"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/btn"
-        android:hint="Distance"
-        android:paddingLeft="15dp"
-        android:textColorHighlight="#8E8D8D"
-        android:textColorHint="#8E8D8D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/discal2" />
-
-    <Button
-        android:id="@+id/distancecalbtn"
-        android:layout_width="144dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="64dp"
-        android:backgroundTint="#5F658F"
-        android:text="CALCULATE"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/tv_destination"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_destLocation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/discal3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_temp" />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_distance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_destLocation" />
+
+    <TextView
+        android:id="@+id/tv_calculatedTemp"
+        android:layout_width="330dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_distance" />
+
+    <EditText
+        android:id="@+id/et_destLocation"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_distance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_destination" />
+
+    <EditText
+        android:id="@+id/et_temp"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_destination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_temp_enter" />
+
+    <ImageView
+        android:id="@+id/carsix"
+        android:layout_width="261dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calculatedTemp"
+        app:srcCompat="@drawable/carsix" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
