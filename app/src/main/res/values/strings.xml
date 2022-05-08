@@ -219,4 +219,5 @@
     <string name="btn_click1">Click me</string>
     <string name="btn_click2">Click me</string>
     <string name="btn_click3">click me</string>
+    <string name="editTextDate" translatable="false">date</string>
 </resources>
