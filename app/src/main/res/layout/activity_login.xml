@@ -21,13 +21,13 @@
         android:id="@+id/t_sign"
         android:layout_width="263dp"
         android:layout_height="57dp"
-        android:layout_marginTop="144dp"
-        android:text="@string/t_sign"
-        android:textColor="#0B0A0A"
+        android:layout_marginTop="44dp"
+        android:text="Sign In"
+        android:textColor="#FFFF"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/main_view" />
 
@@ -35,12 +35,12 @@
         android:id="@+id/i_mail"
         android:layout_width="323dp"
         android:layout_height="57dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="52dp"
         android:backgroundTint="#5F658F"
         android:ems="10"
+        android:hint="@string/i_mail"
         android:inputType="textPersonName"
-        android:text="@string/i_mail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_sign" />
 
@@ -48,25 +48,55 @@
         android:id="@+id/i_pw"
         android:layout_width="321dp"
         android:layout_height="58dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="46dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="52dp"
         android:backgroundTint="#5F658F"
         android:ems="10"
+        android:hint="@string/i_pw"
         android:inputType="textPersonName"
-        android:text="@string/i_pw"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_view" />
 
     <Button
         android:id="@+id/b_sign"
-        android:layout_width="168dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="132dp"
+        android:layout_width="153dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="128dp"
         android:backgroundTint="#5F658F"
         android:text="@string/b_sign"
+        android:textAllCaps="false"
         android:textSize="24sp"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/i_pw" />
+
+    <TextView
+        android:id="@+id/textnm"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:text="@string/textnm"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_sign"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/logsup"
+        android:layout_width="153dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/logsup"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textnm" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
