@@ -7,20 +7,20 @@
     android:orientation="vertical">
 
 
-    <View
+    <!--<View
         android:id="@+id/view1"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:background="@drawable/ic_wave__3_"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-4dp" />
+        tools:layout_editor_absoluteY="-4dp" />-->
 
     <EditText
         android:id="@+id/getval"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="70dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         android:layout_marginRight="70dp"
         android:hint="@string/getval"
         android:inputType="number"
