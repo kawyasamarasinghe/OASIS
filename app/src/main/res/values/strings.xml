@@ -118,6 +118,14 @@
     <string name="updatevehiclecon4">number of passangers container</string>
     <string name="updatelbooking_vehicle_k2">update booking button</string>
     <string name="cancelbooking_vehicle_k2">cancel booking button</string>
+    <string name="vehiclecon0">Vehicle Name</string>
+    <string name="rv">layout in mybooking vehicles</string>
+    <string name="cancelbtnupdate">Cancel</string>
+    <string name="tv_calculator">Distance Calculator</string>
+    <string name="tv_temp_enter">Source</string>
+    <string name="tv_destination">Destination</string>
+    <string name="tv_distance">Distance</string>
+    <string name="btn_temp">Calculate Distance</string>
 
     <string name="btn_bookinghotel1">Book</string>
     <string name="txt_myhotels">My Hotels</string>

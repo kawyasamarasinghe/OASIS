@@ -30,12 +30,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/vehiclecon1"
+        android:id="@+id/vehiclecon0"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="68dp"
         android:background="@drawable/btn"
-        android:hint="Starting Location"
+        android:hint="@string/vehiclecon0"
         android:paddingLeft="15dp"
         android:textColorHighlight="#8E8D8D"
         android:textColorHint="#8E8D8D"
@@ -45,10 +45,26 @@
         app:layout_constraintTop_toBottomOf="@+id/bookvehicletxt" />
 
     <EditText
+        android:id="@+id/vehiclecon1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn"
+        android:hint="Starting Location"
+        android:paddingLeft="15dp"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehiclecon0" />
+
+
+    <EditText
         android:id="@+id/vehiclecon2"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/btn"
         android:hint="Arrival Location"
         android:paddingLeft="15dp"
@@ -63,7 +79,7 @@
         android:id="@+id/vehiclecon3"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/btn"
         android:hint="Date"
         android:paddingLeft="15dp"
@@ -78,7 +94,7 @@
         android:id="@+id/vehiclecon4"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/btn"
         android:hint="No. of passengers"
         android:paddingLeft="15dp"
@@ -90,11 +106,11 @@
         app:layout_constraintTop_toBottomOf="@+id/vehiclecon3" />
 
     <Button
-        android:id="@+id/updatebooking_vehicle_k"
+        android:id="@+id/addnewbookingbtn"
         android:layout_width="144dp"
         android:layout_height="54dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="#5F658F"
         android:text="@string/bookvehiclebtn"
         android:textAllCaps="false"
@@ -107,17 +123,18 @@
         android:id="@+id/cancelvehiclebtn"
         android:layout_width="144dp"
         android:layout_height="54dp"
-        android:layout_marginTop="48dp"
         android:layout_marginEnd="38dp"
         android:backgroundTint="#5F658F"
-        android:text="Cancel"
+        android:text="@string/cancelvehiclebtn"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/addnewbookingbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.677"
-        app:layout_constraintStart_toEndOf="@+id/updatebooking_vehicle_k"
-        app:layout_constraintTop_toBottomOf="@+id/vehiclecon4" />
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toEndOf="@+id/addnewbookingbtn"
+        app:layout_constraintTop_toTopOf="@+id/addnewbookingbtn"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/calandervehicle"
