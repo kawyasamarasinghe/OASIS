@@ -177,7 +177,7 @@
     <string name="t_c_res">Make a Booking</string>
     <string name="t_c_res_name">Restaurant Name</string>
     <string name="i_input_name">King of the Mambo</string>
-    <string name="c_res_date">Booking Date</string>
+    <string name="res_date">Booking Date</string>
     <string name="c_input_date">22/02/2022</string>
     <string name="input_c_time">Booking Time</string>
     <string name="i_c_time">5.00 PM</string>
@@ -210,6 +210,7 @@
     <string name="b_sign">Sign In</string>
     <string name="i_loc">Your Current Location</string>
     <string name="logout">Log OUT</string>
+
     <string name="txt_calchead">Discount Calculator</string>
     <string name="et_dischotel">Enter Hotel Price</string>
     <string name="rd_btn_fam">Family Discount</string>
@@ -221,4 +222,9 @@
     <string name="btn_click3">click me</string>
     <string name="txt_bookkk">My Bookings</string>
     <string name="btn_hotelbookingsall">View Bookings</string>
+    <string name="b_cancel">Back</string>
+    <string name="bTip">Calculate your tip</string>
+    <string name="textnm">New Member? Sign Up Today</string>
+    <string name="logsup">Sign Up</string>
+
 </resources>

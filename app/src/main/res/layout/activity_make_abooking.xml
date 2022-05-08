@@ -16,204 +16,148 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/t_c_res"
-        android:layout_width="348dp"
-        android:layout_height="59dp"
+        android:layout_width="320dp"
+        android:layout_height="76dp"
         android:layout_marginTop="16dp"
         android:text="@string/t_c_res"
         android:textColor="#FAF8F8"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/main_view" />
 
-    <TextView
-        android:id="@+id/t_e_res_name"
-        android:layout_width="348dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="36dp"
-        android:text="@string/t_c_res_name"
-        android:textColor="#090909"
-        android:textSize="18sp"
-        android:textStyle="bold"
+    <EditText
+        android:id="@+id/r_name"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn"
+        android:hint="Restaurant Name"
+        android:paddingLeft="15dp"
+        android:text="Restaurant Name"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/t_c_res" />
 
-    <TextView
-        android:id="@+id/i_e_name"
-        android:layout_width="344dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="36dp"
-        android:background="@drawable/ic_baseline_input_field"
-        android:paddingLeft="16dp"
-        android:textColor="#090909"
-        android:textSize="18sp"
+    <EditText
+        android:id="@+id/r_date"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn"
+        android:hint="Booking Date"
+        android:paddingLeft="15dp"
+        android:text="Booking Date"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/t_e_res_name" />
-
-    <TextView
-        android:id="@+id/e_res_date"
-        android:layout_width="379dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/c_res_date"
-        android:textColor="#0C0C0C"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/i_e_name" />
+        app:layout_constraintTop_toBottomOf="@+id/r_name" />
 
-    <TextView
-        android:id="@+id/c_input_date"
-        android:layout_width="343dp"
-        android:layout_height="46dp"
-        android:layout_marginEnd="36dp"
-        android:background="@drawable/ic_baseline_input_field"
-        android:paddingLeft="16dp"
-        android:textColor="#090909"
-        android:textSize="18sp"
+    <EditText
+        android:id="@+id/r_time"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="15dp"
+        android:hint="Booking time"
+        android:text="Booking time"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/e_res_date" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_date" />
 
-    <ImageView
-        android:id="@+id/imagecal"
-        android:layout_width="29dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="44dp"
+    <EditText
+        android:id="@+id/r_meal"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="15dp"
+        android:hint="What is your meal"
+        android:text="What is your meal"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/c_input_date"
-        app:srcCompat="@drawable/ic_baseline_calendar_today_24" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_time" />
 
-    <TextView
-        android:id="@+id/input_e_time"
-        android:layout_width="347dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="36dp"
-        android:text="@string/input_c_time"
-        android:textColor="#0C0C0C"
-        android:textSize="18sp"
-        android:textStyle="bold"
+    <EditText
+        android:id="@+id/r_t_meal"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="15dp"
+        android:hint="Meal type"
+        android:text="Meal type"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c_input_date" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_meal" />
 
-    <TextView
-        android:id="@+id/i_c_time"
-        android:layout_width="348dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/ic_baseline_input_field"
-        android:paddingLeft="16dp"
-        android:textColor="#090909"
-        android:textSize="18sp"
-        android:textStyle="normal"
+    <EditText
+        android:id="@+id/r_tables"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="15dp"
+        android:hint="Number of tables"
+        android:text="Number of tables"
+        android:textColor="#857979"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_e_time" />
-
-    <ImageView
-        android:id="@+id/i_time"
-        android:layout_width="31dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/i_c_time"
-        app:layout_constraintTop_toBottomOf="@+id/input_e_time"
-        app:srcCompat="@drawable/ic_baseline_access_time_24" />
-
-    <TextView
-        android:id="@+id/c_ch_meal"
-        android:layout_width="346dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="36dp"
-        android:text="@string/e_ch_meal"
-        android:textColor="#0B0B0B"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/i_c_time" />
-
-    <TextView
-        android:id="@+id/i_meal"
-        android:layout_width="352dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/ic_baseline_input_field"
-        android:paddingLeft="16dp"
-        android:textColor="#0B0B0B"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c_ch_meal" />
-
-    <TextView
-        android:id="@+id/type_meal"
-        android:layout_width="334dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="48dp"
-        android:text="@string/c_type_meal"
-        android:textColor="#0B0B0B"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/i_meal" />
-
-    <TextView
-        android:id="@+id/i_e_meal"
-        android:layout_width="348dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/ic_baseline_input_field"
-        android:paddingLeft="16dp"
-        android:textColor="#090909"
-        android:textSize="18sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/type_meal" />
-
-    <TextView
-        android:id="@+id/t_n_table"
-        android:layout_width="337dp"
-        android:layout_height="26dp"
-        android:layout_marginEnd="44dp"
-        android:text="@string/c_n_table"
-        android:textColor="#0C0C0C"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/i_e_meal" />
-
-    <TextView
-        android:id="@+id/c_num_t"
-        android:layout_width="348dp"
-        android:layout_height="44dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/ic_baseline_input_field"
-        android:paddingLeft="16dp"
-        android:textColor="#0B0B0B"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/t_n_table" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_t_meal" />
 
     <Button
-        android:id="@+id/br_create"
-        android:layout_width="181dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="112dp"
+        android:id="@+id/b_r_create"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="180dp"
         android:backgroundTint="#5F658F"
         android:text="@string/br_create"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c_num_t" />
+        app:layout_constraintTop_toBottomOf="@+id/r_tables" />
+
+    <Button
+        android:id="@+id/b_r_back"
+        android:layout_width="121dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="89dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/b_cancel"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toEndOf="@+id/b_r_create"
+        app:layout_constraintTop_toBottomOf="@+id/r_tables" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
