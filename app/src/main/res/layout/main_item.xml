@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_r_text"
+            android:text="Restaurant Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/meal_r_text"
+            android:text="Meal"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_below="@+id/name_r_text"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/meal_t_text"
+            android:text="Meal Type"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_below="@+id/meal_r_text"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_r_text"
+            android:text="Booking Date"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_below="@+id/meal_t_text"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_r_text"
+            android:text="Booking Time"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_below="@+id/date_r_text"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/table_r_text"
+            android:text="No of tables"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:layout_below="@+id/time_r_text"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_below="@+id/table_r_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                app:cornerRadius="13dp"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/rb_edit"/>
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                app:cornerRadius="13dp"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/rb_delete"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
