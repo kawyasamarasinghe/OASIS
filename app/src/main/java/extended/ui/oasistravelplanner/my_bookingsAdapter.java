@@ -41,8 +41,6 @@ public class my_bookingsAdapter extends FirebaseRecyclerAdapter<my_bookingsModel
     @Override
     protected void onBindViewHolder(@NonNull myViewHolder holder, @SuppressLint("RecyclerView") int position, @NonNull my_bookingsModel model) {
 
-
-
         holder.restaurantName.setText(model.getRestaurantName());
         holder.meal.setText(model.getMeal());
         holder.type.setText(model.getType());
@@ -50,8 +48,91 @@ public class my_bookingsAdapter extends FirebaseRecyclerAdapter<my_bookingsModel
         holder.time.setText(model.getTime());
         holder.table.setText(model.getTable());
 
+        holder.btnEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final  DialogPlus dialogPlus = DialogPlus.newDialog(holder.date.getContext())
+                        .setContentHolder(new ViewHolder(R.layout.update_res_popup))
+                        .setExpanded(true,1800)
+                        .create();
 
+                View view = dialogPlus.getHolderView();
 
+                EditText restaurantName = view.findViewById(R.id.txtrname);
+                EditText meal = view.findViewById(R.id.txtrmeal);
+                EditText type = view.findViewById(R.id.txtrtype);
+                EditText date = view.findViewById(R.id.txtrdate);
+                EditText time = view.findViewById(R.id.txtrtime);
+                EditText table = view.findViewById(R.id.txtrtables);
+
+                Button btn_r_edit = view.findViewById(R.id.btnredit);
+
+                restaurantName.setText(model.getRestaurantName());
+                meal.setText(model.getMeal());
+                type.setText(model.getType());
+                date.setText(model.getDate());
+                time.setText(model.getTime());
+                table.setText(model.getTable());
+
+                dialogPlus.show();
+
+                btn_r_edit.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Map<String,Object> map = new HashMap<>();
+                        map.put("restaurantName",restaurantName.getText().toString());
+                        map.put(" meal", meal.getText().toString());
+                        map.put("type", type.getText().toString());
+                        map.put("date",date.getText().toString());
+                        map.put("time",time.getText().toString());
+                        map.put("table",table.getText().toString());
+
+                        FirebaseDatabase.getInstance().getReference().child("RestaurantBookings")
+                                .child(getRef(position).getKey()).updateChildren(map)
+                                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        Toast.makeText(holder.restaurantName.getContext(), "Data Updated successfully", Toast.LENGTH_SHORT).show();
+                                        dialogPlus.dismiss();
+                                    }
+                                })
+                                .addOnFailureListener(new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(Exception e) {
+                                        Toast.makeText(holder.restaurantName.getContext(), "Error while Editing", Toast.LENGTH_SHORT).show();
+                                        dialogPlus.dismiss();
+                                    }
+                                });
+                    }
+                });
+            }
+        });
+
+        holder.btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(holder.restaurantName.getContext());
+                builder.setTitle("Are you sure?");
+                builder.setMessage("Deleted data can't be undo");
+
+                builder.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        FirebaseDatabase.getInstance().getReference().child("RestaurantBookings")
+                                .child(getRef(position).getKey()).removeValue();
+                    }
+                });
+
+                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(holder.restaurantName.getContext(), "Canceled", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                builder.show();
+            }
+        });
     }
 
     @NonNull
