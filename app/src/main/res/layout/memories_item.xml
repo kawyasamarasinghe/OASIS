@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/viewTitletxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/darkgrey"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewPlacetxt"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewTitletxt"
+            android:text="Place"
+            android:textColor="@color/darkgrey"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/viewDatetxt"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewPlacetxt"
+            android:text="Date"
+            android:textColor="@color/darkgrey"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/viewDesctxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewDatetxt"
+            android:text="Description"
+            android:textColor="@color/darkgrey"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/delete_view"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/viewDesctxt"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="0dp"
+            android:backgroundTint="#5F658F"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/edit_view"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/viewDesctxt"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="0dp"
+            android:backgroundTint="#5F658F"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
