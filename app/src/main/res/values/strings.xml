@@ -219,4 +219,6 @@
     <string name="btn_click1">Click me</string>
     <string name="btn_click2">Click me</string>
     <string name="btn_click3">click me</string>
+    <string name="txt_bookkk">My Bookings</string>
+    <string name="btn_hotelbookingsall">View Bookings</string>
 </resources>
