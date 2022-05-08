@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -35,6 +35,7 @@
       android:id="@+id/compass"
       android:layout_width="141dp"
       android:layout_height="50dp"
+      android:layout_marginLeft="10dp"
       android:layout_marginTop="52dp"
       android:text="@string/compass"
       android:textColor="#FFFFFF"
@@ -44,5 +45,13 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="@+id/view_compass" />
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottom_navigation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:itemBackground="@color/white"
+      app:itemIconTint="@color/purple_500"
+      app:menu="@menu/bottom_nav_menu"
+      tools:ignore="MissingConstraints" />
+</RelativeLayout>
