@@ -5,8 +5,8 @@
         android:id="@+id/home"
         android:icon="@drawable/ic_baseline_home_24"/>
     <item android:title=""
-        android:id="@+id/map"
-        android:icon="@drawable/ic_baseline_map_24"/>
+        android:id="@+id/compass"
+        android:icon="@drawable/ic_baseline_compass_calibration_24"/>
     <item android:title=""
         android:id="@+id/currencycon"
         android:icon="@drawable/ic_currencyconvertor"/>
