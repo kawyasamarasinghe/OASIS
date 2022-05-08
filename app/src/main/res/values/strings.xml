@@ -226,5 +226,6 @@
     <string name="bTip">Calculate your tip</string>
     <string name="textnm">New Member? Sign Up Today</string>
     <string name="logsup">Sign Up</string>
+    <string name="editTextDate" translatable="false">date</string>
 
 </resources>
