@@ -18,6 +18,7 @@ public class login extends AppCompatActivity {
     private EditText i_mail;
     private EditText i_pw;
     private Button b_sign;
+    private Button b_l_signup;
 
     private FirebaseAuth auth;
 
@@ -29,8 +30,17 @@ public class login extends AppCompatActivity {
         i_mail = findViewById(R.id.i_mail);
         i_pw = findViewById(R.id.i_pw);
         b_sign = findViewById(R.id.b_sign);
+        b_l_signup = findViewById(R.id.logsup);
 
         auth = FirebaseAuth.getInstance();
+
+        b_l_signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(login.this,appregister.class);
+                startActivity(intent);
+            }
+        });
 
         b_sign.setOnClickListener(new View.OnClickListener() {
             @Override
