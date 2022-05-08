@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Detais"
+        android:background="#5F658F"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="18dp"
+        android:id="@+id/updatevehiclecon0"
+        android:hint="Vehicle Name"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="18dp"
+        android:id="@+id/updatevehiclecon1"
+        android:hint="Starting Location"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="18dp"
+        android:id="@+id/updatevehiclecon2"
+        android:hint="Vehicle Name"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="18dp"
+        android:id="@+id/updatevehiclecon3"
+        android:hint="Date"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="18dp"
+        android:id="@+id/updatevehiclecon4"
+        android:hint="No. of passengers"
+        android:textColorHighlight="#8E8D8D"
+        android:textColorHint="#8E8D8D"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+
+        android:id="@+id/updatelbooking_vehicle_k2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#5F658F"
+        android:text="@string/updatelbooking_vehicle_k2"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+</LinearLayout>
